@@ -27,7 +27,6 @@ $(function () {
     }
 
 
-
     // latest project slider
     $('.marquee_animi').marquee({
         speed: 100,
@@ -67,6 +66,10 @@ $(function () {
     });
 
 
+    //=====STICKY SIDEBAR======= 
+    $("#sticky_sidebar").stickit({
+        top: 70,
+    })
 
 
 
