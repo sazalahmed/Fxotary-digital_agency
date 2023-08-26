@@ -29,7 +29,7 @@ $(function () {
 
     // latest project slider
     $('.marquee_animi').marquee({
-        speed: 100,
+        speed: 70,
         gap: 0,
         delayBeforeStart: 0,
         direction: 'left',
@@ -40,7 +40,7 @@ $(function () {
 
     // latest project slider
     $('.marquee_animi2').marquee({
-        speed: 100,
+        speed: 70,
         gap: 0,
         delayBeforeStart: 0,
         direction: 'right',
@@ -63,6 +63,39 @@ $(function () {
         arrows: true,
         nextArrow: '<i class="far fa-angle-right nextArrow"></i>',
         prevArrow: '<i class="far fa-angle-left prevArrow"></i>',
+
+        responsive: [
+            {
+                breakpoint: 1400,
+                settings: {
+                    arrows: false,
+                }
+            },
+            {
+                breakpoint: 1200,
+                settings: {
+                    arrows: false,
+                }
+            },
+            {
+                breakpoint: 992,
+                settings: {
+                    arrows: false,
+                }
+            },
+            {
+                breakpoint: 768,
+                settings: {
+                    arrows: false,
+                }
+            },
+            {
+                breakpoint: 576,
+                settings: {
+                    arrows: false,
+                }
+            }
+        ]
     });
 
 
@@ -72,12 +105,34 @@ $(function () {
     })
 
 
+    //*=======SCROLL BUTTON=======
+    $('.tf__scroll_btn').on('click', function () {
+        $('html, body').animate({
+            scrollTop: 0,
+        }, 300);
+    });
+
+    $(window).on('scroll', function () {
+        var scrolling = $(this).scrollTop();
+
+        if (scrolling > 500) {
+            $('.tf__scroll_btn').fadeIn();
+        } else {
+            $('.tf__scroll_btn').fadeOut();
+        }
+    });
 
 
+    //======MOBILE MENU BUTTON=======
+    $(".navbar-toggler").on("click", function () {
+        $(".navbar-toggler").toggleClass("show");
+    });
 
 
-
-
+    //======MOBILE MENU BUTTON=======
+    $(".nav-item").on("click", function () {
+        $(".droap_menu").toggleClass("show_m_menu");
+    });
 
 
 });
