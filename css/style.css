@@ -1,3 +1,32 @@
+/* 
+***************************************
+Template Name:
+Author: 
+Author Email: 
+website: 
+Version: 1.0
+Description: .
+***************************************
+
+CSS INDEX
+===================================
+01. GLOBAL CSS 
+02. HOME PAGE
+03. HOME PAGE 2
+04. ABOUT PAGE
+05. TEAM PAGE PAGE
+06. SERVICES PAGE
+07. PORTFOLI PAGE
+08. BLOG LIST PAGE
+09. BLOG DETAILS PAGE
+10. CONTACT PAGE 
+11. ERROR PAGE
+
+*********************************/
+
+/*=================================
+    GLOBAL START
+=================================*/
 @import url('https://fonts.googleapis.com/css2?family=Jost:wght@200;300;400;500;600;700;800;900&family=Kumbh+Sans:wght@300;400;500;600;700;800;900&display=swap');
 
 * {
@@ -86,9 +115,6 @@ button {
     --paraFont: 'Kumbh Sans', sans-serif;
 }
 
-/*=================================
-    GLOBAL START
-=================================*/
 .common_btn {
     background: var(--colorPrimary);
     color: var(--colorWhite);
@@ -1880,7 +1906,7 @@ footer::after {
 =================================*/
 
 /*=================================
-    HOME 2 START
+    HOME PAGE 2 START
 =================================*/
 /* menu 2 start */
 .main_menu_2 {
@@ -2489,9 +2515,8 @@ footer::after {
 /* footer 2 end */
 
 /*=================================
-    HOME 2 END
+    HOME PAGE 2 END
 =================================*/
-
 
 
 /*=================================
@@ -2720,7 +2745,7 @@ footer::after {
 
 
 /*=================================
-    PORTFOLIO PAGE START
+    PORTFOLI PAGE START
 =================================*/
 .tf__portfolio_page_text {
     height: 100%;
@@ -2734,7 +2759,7 @@ footer::after {
 }
 
 /*=================================
-    PORTFOLIO PAGE END
+    PORTFOLI PAGE END
 =================================*/
 
 
@@ -3144,17 +3169,6 @@ footer::after {
     border-color: #C5C5C5;
 }
 
-
-
 /*=================================
     ERROR PAGE END
-=================================*/
-
-
-/*=================================
-    START
-=================================*/
-
-/*=================================
-    END
 =================================*/

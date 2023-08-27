@@ -1,6 +1,5 @@
 @media (min-width: 1400px) and (max-width: 1600px) {
 
-
     /*==================================
         HOME PAGE START
     ==================================*/
@@ -70,16 +69,26 @@
     ==================================*/
 
 
+    /*==================================
+        HOME PAGE 2 START
+    ==================================*/
+    .banner_text_2 h1,
+    .banner_text_2 h1 span {
+        font-size: 105px;
+    }
 
+    .banner_2::before {
+        width: 170px;
+        height: 195px;
+        bottom: 55%;
+    }
 
-
-
+    /*==================================
+        HOME PAGE 2 END
+    ==================================*/
 }
 
-
-
 @media (min-width: 1200px) and (max-width: 1399.99px) {
-
 
     /*==================================
         HOME PAGE START
@@ -336,13 +345,118 @@
         SERVICES PAGE END
     ==================================*/
 
+    /*==================================
+        HOME PAGE 2 START
+    ==================================*/
+    .banner_text_2 h1,
+    .banner_text_2 h1 span {
+        font-size: 70px;
+    }
 
+    .banner_text_2 p {
+        max-width: 70%;
+    }
+
+    .banner_2_img_1 {
+        left: 0;
+    }
+
+    .banner_2_img_1,
+    .banner_2_img_3 {
+        width: auto;
+        height: auto;
+    }
+
+    .banner_2_img_3 {
+        right: 0;
+    }
+
+    .banner_2_img_2 {
+        width: auto;
+        height: auto;
+    }
+
+    .counter_2 {
+        margin-top: 185px;
+    }
+
+    .section_heading_2 p {
+        max-width: 100%;
+        margin-left: 0;
+    }
+
+    .section_heading_2 a {
+        position: relative;
+        margin-top: 30px;
+    }
+
+    .counter_2 .section_heading_2 {
+        padding-bottom: 30px;
+    }
+
+    .tf__featured_work .learn_more_2 {
+        top: 135px;
+    }
+
+    .tf__featured_work .section_heading_2 {
+        padding-bottom: 30px;
+    }
+
+    .tf__featured_work_item.item_2 {
+        margin-top: 30px;
+    }
+
+    .tf__team .learn_more_2 {
+        top: 120px;
+    }
+
+    .tf__team_about .learn_more_2 {
+        top: 0;
+    }
+
+    .home_2_contact_text {
+        height: auto;
+        margin-bottom: 50px;
+    }
+
+    .banner_2::before {
+        width: 130px;
+        height: 150px;
+        bottom: 60%;
+        right: 5%;
+    }
+
+    .tf__brand_3 {
+        margin-top: 100px !important;
+    }
+
+    .tf__team {
+        margin-top: 100px !important;
+    }
+
+    .footer_2::after {
+        height: 162px;
+        width: 150px;
+    }
+
+    .banner_2_button {
+        display: block;
+        bottom: 50px;
+        padding: 10px;
+    }
+
+    .tf__service_2_img {
+        height: 420px;
+        margin-left: 0;
+        width: 530px;
+    }
+
+    /*==================================
+        HOME PAGE 2 END
+    ==================================*/
 }
 
-
-
 @media (min-width: 992px) and (max-width: 1199.99px) {
-
 
     /*==================================
         HOME PAGE START
@@ -536,7 +650,7 @@
     ==================================*/
 
     /*==================================
-        ABOUT PAGE END
+        ABOUT PAGE START
     ==================================*/
     .about_us_2_img {
         height: 355px;
@@ -601,7 +715,7 @@
 
 
     /*==================================
-        BLOG LIST start
+        BLOG LIST START
     ==================================*/
 
     .blog_list_img {
@@ -679,6 +793,125 @@
         SERVICES PAGE END
     ==================================*/
 
+
+    /*==================================
+        HOME PAGE 2 START
+    ==================================*/
+    .banner_text_2 h1,
+    .banner_text_2 h1 span {
+        font-size: 75px;
+        line-height: 80px;
+    }
+
+    .banner_2_img_1 {
+        left: 0;
+    }
+
+    .banner_2_img_1,
+    .banner_2_img_3 {
+        width: auto;
+        height: auto;
+    }
+
+    .banner_2_img_3 {
+        right: 0;
+    }
+
+    .banner_2_img_2 {
+        width: auto;
+        height: auto;
+    }
+
+    .counter_2 {
+        margin-top: 185px;
+    }
+
+    .section_heading_2 p {
+        max-width: 100%;
+        margin-left: 0;
+    }
+
+    .section_heading_2 a {
+        position: relative;
+        margin-top: 30px;
+    }
+
+    .counter_2 .section_heading_2 {
+        padding-bottom: 30px;
+    }
+
+    .tf__featured_work .learn_more_2 {
+        top: 135px;
+    }
+
+    .tf__featured_work .section_heading_2 {
+        padding-bottom: 30px;
+    }
+
+    .tf__featured_work_item.item_2 {
+        margin-top: 30px;
+    }
+
+    .tf__team .section_heading_2 {
+        padding-left: 0;
+    }
+
+    .tf__team .learn_more_2 {
+        position: relative;
+        top: 0;
+        right: 0;
+    }
+
+    .home_2_contact_text {
+        height: auto;
+        margin-bottom: 50px;
+    }
+
+    .banner_2::before {
+        width: 130px;
+        height: 150px;
+        bottom: 55%;
+        right: 5%;
+    }
+
+    .tf__brand_3 {
+        margin-top: 100px !important;
+    }
+
+    .tf__team {
+        margin-top: 100px !important;
+    }
+
+    .tf__team .learn_more_2 {
+        position: absolute;
+        top: 135px;
+    }
+
+    .tf__team_about .learn_more_2 {
+        position: absolute;
+        top: 0;
+    }
+
+    .footer_2::after {
+        height: 162px;
+        width: 150px;
+    }
+
+    .banner_2_button {
+        display: block;
+        bottom: 50px;
+        padding: 10px;
+    }
+
+    .tf__service_2_img {
+        height: 420px;
+        margin-left: 0;
+        width: 530px;
+    }
+
+    /*==================================
+        HOME PAGE 2 END
+    ==================================*/
 }
 
 @media (min-width: 768px) and (max-width: 991.99px) {
@@ -695,7 +928,8 @@
         width: 110%;
     }
 
-    .main_menu .container-fluid {
+    .main_menu .container-fluid,
+    .main_menu .container {
         padding: 15px 0px;
     }
 
@@ -1213,7 +1447,12 @@
         SERVICES PAGE START
     ==================================*/
     .tf__service_2_img {
-        height: auto;
+        width: 400px;
+        margin-left: 10px;
+    }
+
+    .home_2 .counter_2 {
+        margin-top: 240px;
     }
 
     .tf__service_2_text h2,
@@ -1223,7 +1462,7 @@
     }
 
     .tf__services_page_item {
-        margin-top: 160px;
+        margin-top: 215px;
     }
 
     .tf__services_2_img {
@@ -1266,6 +1505,123 @@
         SERVICES PAGE END
     ==================================*/
 
+
+    /*==================================
+        HOME PAGE 2 START
+    ==================================*/
+    .banner_text_2 h1,
+    .banner_text_2 h1 span {
+        font-size: 75px;
+        line-height: 80px;
+    }
+
+    .banner_text_2 p {
+        max-width: 100%;
+    }
+
+    .banner_2_img_1 {
+        left: 0;
+    }
+
+    .banner_2_img_1,
+    .banner_2_img_3 {
+        width: auto;
+        height: auto;
+    }
+
+    .banner_2_img_3 {
+        right: 0;
+    }
+
+    .banner_2_img_2 {
+        width: auto;
+        height: auto;
+    }
+
+    .counter_2 {
+        margin-top: 185px;
+    }
+
+    .section_heading_2 p {
+        max-width: 100%;
+        margin-left: 0;
+    }
+
+    .section_heading_2 a {
+        position: relative;
+        margin-top: 30px;
+    }
+
+    .counter_2 .section_heading_2 {
+        padding-bottom: 30px;
+    }
+
+    .tf__featured_work .learn_more_2 {
+        top: 135px;
+    }
+
+    .tf__featured_work .section_heading_2 {
+        padding-bottom: 30px;
+    }
+
+    .tf__featured_work_item.item_2 {
+        margin-top: 30px;
+    }
+
+    .tf__team .section_heading_2 {
+        padding-left: 0;
+    }
+
+    .tf__team .learn_more_2 {
+        position: relative;
+        top: 0;
+        right: 0;
+    }
+
+    .home_2_contact_text {
+        height: auto;
+        margin-bottom: 50px;
+    }
+
+    .banner_2_button {
+        gap: 10px;
+        padding: 10px;
+        left: 50%;
+        bottom: 0;
+    }
+
+    .banner_2::before {
+        width: 130px;
+        height: 150px;
+        bottom: 65%;
+        right: 10px;
+    }
+
+    .tf__brand_3 {
+        margin-top: 100px !important;
+    }
+
+    .tf__team {
+        margin-top: 100px !important;
+    }
+
+    .tf__team .learn_more_2 {
+        position: absolute;
+        top: 135px;
+    }
+
+    .footer_2::after {
+        width: 104px;
+    }
+
+    .counter_2 .section_heading_2 a {
+        position: absolute;
+        right: -200px;
+    }
+
+    /*==================================
+        HOME PAGE 2 END
+    ==================================*/
 }
 
 @media (min-width: 576px) and (max-width: 767.99px) {
@@ -1281,7 +1637,8 @@
         height: 84px;
     }
 
-    .main_menu .container-fluid {
+    .main_menu .container-fluid,
+    .main_menu .container {
         padding: 15px 0px;
     }
 
@@ -1492,10 +1849,6 @@
         font-size: 20px;
     }
 
-    .project_slider li a .img {
-        display: none;
-    }
-
     .project_slider li::after {
         top: -5px;
     }
@@ -1539,7 +1892,6 @@
 
     .achivement_list ul li .text {
         width: 80%;
-        /*! margin-top: 20px; */
     }
 
     .testimonial_text .description::after {
@@ -1633,7 +1985,7 @@
     }
 
     footer::after {
-        width: 100px;
+        width: 100px !important;
         height: 112px;
     }
 
@@ -1749,7 +2101,6 @@
     ==================================*/
 
 
-
     /*==================================
         BLOG LIST start
     ==================================*/
@@ -1817,7 +2168,13 @@
         SERVICES PAGE START
     ==================================*/
     .tf__service_2_img {
-        height: auto;
+        height: 400px;
+        margin-left: 10px;
+        width: 400px;
+    }
+
+    .home_2 .counter_2 {
+        margin-top: 120px;
     }
 
     .tf__service_2_text h2,
@@ -1868,6 +2225,99 @@
         SERVICES PAGE END
     ==================================*/
 
+
+    /*==================================
+        HOME PAGE 2 START
+    ==================================*/
+    .banner_text_2 h1,
+    .banner_text_2 h1 span {
+        font-size: 58px;
+        line-height: 65px;
+    }
+
+    .banner_text_2 p {
+        padding-left: 0;
+        max-width: 100%;
+    }
+
+    .banner_text_2 p::after {
+        display: none;
+    }
+
+    .banner_2_img_1 {
+        left: 0;
+    }
+
+    .banner_2_img_1,
+    .banner_2_img_3 {
+        width: auto;
+        height: auto;
+    }
+
+    .banner_2_img_3 {
+        right: 0;
+    }
+
+    .banner_2_img_2 {
+        width: auto;
+        height: auto;
+    }
+
+    .counter_2 {
+        margin-top: 185px;
+    }
+
+    .section_heading_2 p {
+        max-width: 100%;
+        margin-left: 0;
+    }
+
+    .section_heading_2 a {
+        position: relative;
+        margin-top: 30px;
+    }
+
+    .counter_2 .section_heading_2 {
+        padding-bottom: 30px;
+    }
+
+    .tf__featured_work .learn_more_2 {
+        position: relative;
+        top: 0;
+        right: 0;
+        margin-bottom: 30px;
+    }
+
+    .tf__featured_work .section_heading_2 {
+        padding-bottom: 30px;
+    }
+
+    .tf__featured_work_item.item_2 {
+        margin-top: 30px;
+    }
+
+    .tf__team .section_heading_2 {
+        padding-left: 0;
+    }
+
+    .tf__team .learn_more_2 {
+        position: relative;
+        top: 0;
+        right: 0;
+    }
+
+    .home_2_contact_text {
+        height: auto;
+        margin-bottom: 50px;
+    }
+
+    .banner_2_button {
+        display: none;
+    }
+
+    /*==================================
+        HOME PAGE 2 END
+    ==================================*/
 }
 
 @media (max-width: 575.99px) {
@@ -1883,7 +2333,8 @@
         height: 84px;
     }
 
-    .main_menu .container-fluid {
+    .main_menu .container-fluid,
+    .main_menu .container {
         padding: 15px 0px;
     }
 
@@ -2251,7 +2702,7 @@
     }
 
     footer::after {
-        width: 100px;
+        width: 100px !important;
         height: 112px;
     }
 
@@ -2449,7 +2900,13 @@
         SERVICES PAGE START
     ==================================*/
     .tf__service_2_img {
-        height: auto;
+        height: 240px;
+        margin-left: 5px;
+        width: 210px;
+    }
+
+    .home_2 .counter_2 {
+        margin-top: 140px;
     }
 
     .tf__service_2_text h2,
@@ -2501,11 +2958,96 @@
     ==================================*/
 
 
+    /*==================================
+        HOME PAGE 2 START
+    ==================================*/
+    .banner_text_2 h1,
+    .banner_text_2 h1 span {
+        font-size: 38px;
+        line-height: 54px;
+    }
 
+    .banner_text_2 p {
+        padding-left: 0;
+        max-width: 100%;
+    }
 
+    .banner_text_2 p::after {
+        display: none;
+    }
 
+    .banner_2_img_1 {
+        left: 0;
+    }
 
+    .banner_2_img_1,
+    .banner_2_img_3 {
+        width: auto;
+        height: auto;
+    }
 
+    .banner_2_img_3 {
+        right: 0;
+    }
 
+    .banner_2_img_2 {
+        width: auto;
+        height: auto;
+    }
 
+    .counter_2 {
+        margin-top: 185px;
+    }
+
+    .section_heading_2 p {
+        max-width: 100%;
+        margin-left: 0;
+    }
+
+    .section_heading_2 a {
+        position: relative;
+        margin-top: 30px;
+    }
+
+    .counter_2 .section_heading_2 {
+        padding-bottom: 30px;
+    }
+
+    .tf__featured_work .learn_more_2 {
+        position: relative;
+        top: 0;
+        right: 0;
+        margin-bottom: 30px;
+    }
+
+    .tf__featured_work .section_heading_2 {
+        padding-bottom: 30px;
+    }
+
+    .tf__featured_work_item.item_2 {
+        margin-top: 30px;
+    }
+
+    .tf__team .section_heading_2 {
+        padding-left: 0;
+    }
+
+    .tf__team .learn_more_2 {
+        position: relative;
+        top: 0;
+        right: 0;
+    }
+
+    .home_2_contact_text {
+        height: auto;
+        margin-bottom: 50px;
+    }
+
+    .banner_2_button {
+        display: none;
+    }
+
+    /*==================================
+        HOME PAGE 2 END
+    ==================================*/
 }
