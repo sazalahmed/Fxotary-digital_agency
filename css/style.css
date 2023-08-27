@@ -1576,6 +1576,7 @@ button {
 
 .testimonial_img {
     height: 830px;
+    padding-right: 1px;
     position: relative;
     z-index: 1;
 }
@@ -1854,8 +1855,6 @@ footer {
 
 .footer_copyright p {
     color: #82838C;
-    font-size: 16px;
-    font-weight: 400;
     text-align: center;
 }
 
@@ -2549,9 +2548,6 @@ footer::after {
     -webkit-animation: banner_animi_2 linear 3s infinite alternate;
 }
 
-
-.about_text_2_details {}
-
 .about_text_2_details h5 {
     margin-top: 60px;
     margin-bottom: 20px;
@@ -2583,8 +2579,6 @@ footer::after {
     border-left: 1px solid rgb(255 255 255 / 6%);
     border-right: 1px solid rgb(255 255 255 / 6%);
 }
-
-.tf__team_about {}
 
 .tf__team_about .section_heading_2 {
     padding-left: 0;
@@ -2622,8 +2616,6 @@ footer::after {
 /*=================================
     SERVICES PAGE START
 =================================*/
-.tf__services_page {}
-
 .tf__services_page::after {
     position: absolute;
     content: "";
@@ -2888,7 +2880,7 @@ footer::after {
 .tf__blog_details_img {
     height: 700px;
     margin-top: 60px;
-    margin-bottom: 30px;
+    margin-bottom: 60px;
     border-radius: 5px;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
@@ -2897,7 +2889,7 @@ footer::after {
 }
 
 .tf__blog_details_text p {
-    margin-top: 25px;
+    margin-bottom: 25px;
 }
 
 .tf__blog_details_text .details_quot_text {
@@ -2907,6 +2899,7 @@ footer::after {
     border-left: 5px solid var(--colorPrimary);
     position: relative;
     margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .tf__blog_details_text .details_quot_text p {
@@ -2960,10 +2953,6 @@ footer::after {
 
 .blog_contact_form button {
     border-color: #C5C5C5;
-}
-
-.tf__sidebar_search {
-    margin-top: 30px;
 }
 
 .tf__sidebar_search form {
