@@ -2485,6 +2485,7 @@ footer::after {
     border: 2px solid #000;
     text-align: center;
     padding: 62px;
+    display: block;
 }
 
 .tf__question_text h2,
